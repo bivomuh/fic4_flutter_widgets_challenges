@@ -7,14 +7,14 @@ class TextWidgetBivo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("bivo FIC - Text"),
+        title: const Text("bivo FIC - Text"),
         actions: const [],
       ),
       body: Container(
         padding: const EdgeInsets.all(10),
         child: Column(
-          children: [
-            const Text(
+          children: const [
+            Text(
               "Discover the most modern furniture",
               style: TextStyle(
                 color: Colors.black,

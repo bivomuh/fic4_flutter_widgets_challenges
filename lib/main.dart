@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:project_flutter_pertama/tugas/I_bivo_basic_widget/1_scaffold_widget.dart';
 import 'package:project_flutter_pertama/tugas/I_bivo_basic_widget/2_container_widget.dart';
 import 'package:project_flutter_pertama/tugas/I_bivo_basic_widget/3_text_widget.dart';
+import 'package:project_flutter_pertama/tugas/I_bivo_basic_widget/4_button_widget.dart';
+import 'package:project_flutter_pertama/tugas/I_bivo_basic_widget/5_icon_widget.dart';
+import 'package:project_flutter_pertama/tugas/I_bivo_basic_widget/6_image_widget.dart';
+import 'package:project_flutter_pertama/tugas/I_bivo_basic_widget/7_circle_avatar.dart';
 import 'package:project_flutter_pertama/widget_lesson/3_basic_form/dialog_widget.dart';
 import 'package:project_flutter_pertama/widget_lesson/3_basic_form/form_widget.dart';
 import 'package:project_flutter_pertama/widget_lesson/2_basic_layout/aspectratio_widget.dart';
@@ -44,7 +48,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const TextWidgetBivo(),
+      home: CircleAvatarWidgetBivo(),
       // Scaffold(
       //   appBar: AppBar(
       //     title: const Text('Jago Flutter'),

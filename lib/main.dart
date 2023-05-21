@@ -1,45 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:project_flutter_pertama/tugas/II_basic_layout/1_column_widget.dart';
-import 'package:project_flutter_pertama/tugas/II_basic_layout/2_row_widget.dart';
-import 'package:project_flutter_pertama/tugas/II_basic_layout/3_listview_widget.dart';
-import 'package:project_flutter_pertama/tugas/II_basic_layout/4_gridview_widget.dart';
-import 'package:project_flutter_pertama/tugas/II_basic_layout/5_padding_widget.dart';
-import 'package:project_flutter_pertama/tugas/II_basic_layout/6_aspectratio_widget.dart';
-import 'package:project_flutter_pertama/tugas/II_basic_layout/7_center_widget.dart';
-import 'package:project_flutter_pertama/tugas/I_bivo_basic_widget/1_scaffold_widget.dart';
-import 'package:project_flutter_pertama/tugas/I_bivo_basic_widget/2_container_widget.dart';
-import 'package:project_flutter_pertama/tugas/I_bivo_basic_widget/3_text_widget.dart';
-import 'package:project_flutter_pertama/tugas/I_bivo_basic_widget/4_button_widget.dart';
-import 'package:project_flutter_pertama/tugas/I_bivo_basic_widget/5_icon_widget.dart';
-import 'package:project_flutter_pertama/tugas/I_bivo_basic_widget/6_image_widget.dart';
-import 'package:project_flutter_pertama/tugas/I_bivo_basic_widget/7_circle_avatar.dart';
-import 'package:project_flutter_pertama/widget_lesson/3_basic_form/dialog_widget.dart';
-import 'package:project_flutter_pertama/widget_lesson/3_basic_form/form_widget.dart';
-import 'package:project_flutter_pertama/widget_lesson/2_basic_layout/aspectratio_widget.dart';
-import 'package:project_flutter_pertama/widget_lesson/2_basic_layout/center_widget.dart';
-import 'package:project_flutter_pertama/widget_lesson/2_basic_layout/column_widget.dart';
-import 'package:project_flutter_pertama/widget_lesson/2_basic_layout/expanded_widget.dart';
-import 'package:project_flutter_pertama/widget_lesson/2_basic_layout/gridview_widget.dart';
-import 'package:project_flutter_pertama/widget_lesson/2_basic_layout/listview_widget.dart';
-import 'package:project_flutter_pertama/widget_lesson/2_basic_layout/padding_widget.dart';
-import 'package:project_flutter_pertama/widget_lesson/2_basic_layout/sizedbox_widget.dart';
+import 'package:project_flutter_pertama/tugas/III_basic_form/1_dialog_widget.dart';
+import 'package:project_flutter_pertama/tugas/III_basic_form/dialogwidget.dart';
+import 'package:project_flutter_pertama/tugas/III_basic_form/modal_bottom_sheet.dart';
 import 'package:project_flutter_pertama/widget_lesson/2_basic_layout/stack_widget.dart';
-import 'package:project_flutter_pertama/widget_lesson/2_basic_layout/wrap_widget.dart';
-import 'package:project_flutter_pertama/widget_lesson/1_basic_widget/button_widget.dart';
-import 'package:project_flutter_pertama/widget_lesson/1_basic_widget/circle_avatar_widget.dart';
-import 'package:project_flutter_pertama/widget_lesson/1_basic_widget/container_widget.dart';
-import 'package:project_flutter_pertama/widget_lesson/1_basic_widget/icon_widget.dart';
-import 'package:project_flutter_pertama/widget_lesson/1_basic_widget/image_widget.dart';
-import 'package:project_flutter_pertama/widget_lesson/1_basic_widget/text_widget.dart';
-import 'package:project_flutter_pertama/widget_lesson/4_navigation/bottom_navbar.dart';
-import 'package:project_flutter_pertama/widget_lesson/4_navigation/drawer_widget.dart';
-import 'package:project_flutter_pertama/widget_lesson/4_navigation/navigation_pop.dart';
-import 'package:project_flutter_pertama/widget_lesson/4_navigation/navigation_push.dart';
-import 'package:project_flutter_pertama/widget_lesson/4_navigation/sliver_widget.dart';
-import 'package:project_flutter_pertama/widget_lesson/4_navigation/tabbar_widget.dart';
-import 'package:project_flutter_pertama/widget_lesson/home_page.dart';
-
-import 'widget_lesson/2_basic_layout/row_widget.dart';
+import 'package:project_flutter_pertama/widget_lesson/3_basic_form/dialog_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -55,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: CenterWidget(),
+      home: const showBottomDialogTest(),
       // Scaffold(
       //   appBar: AppBar(
       //     title: const Text('Jago Flutter'),

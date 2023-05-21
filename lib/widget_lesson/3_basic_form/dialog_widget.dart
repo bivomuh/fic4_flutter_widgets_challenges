@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class DialogWiget extends StatefulWidget {
-  const DialogWiget({Key? key}) : super(key: key);
+class DialogWidget extends StatefulWidget {
+  const DialogWidget({Key? key}) : super(key: key);
 
   @override
-  State<DialogWiget> createState() => _DialogWigetState();
+  State<DialogWidget> createState() => _DialogWidgetState();
 }
 
-class _DialogWigetState extends State<DialogWiget> {
+class _DialogWidgetState extends State<DialogWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -51,7 +51,7 @@ class _DialogWigetState extends State<DialogWiget> {
               child: const Text('Open Dialog'),
             ),
             const SizedBox(
-              width: 8,
+              width: 50,
             ),
             ElevatedButton(
               onPressed: () async {
